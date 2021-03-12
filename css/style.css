@@ -1,3 +1,7 @@
+/*font-family: 'Arimo', sans-serif;*/
+/*font-family: 'Hind', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Hind:wght@300;400&display=swap');
+
 /*Обнуление*/
 *{
 	padding: 0;
@@ -37,13 +41,200 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+/*Шапка*/
 body{
-	max-width: 800px;
+	max-width: 1144px;
+	height: 1300px;
 	margin: 0px auto;
 }
-
-.main{
-	font-size: 60px;
-	color: red;
-	margin: 100px 0px 0px 0px;
+header{
+	width: 1003px;
+	height: 140px;
+	margin: 0px auto;
 }
+.topsite {
+	border-top: 8px solid #f2ac04;
+	margin: 51px 0px 0px 0px;
+	display: flex;
+}
+.topsite-fimg{
+	margin: 40px 0px 0px 35px;
+	opacity: 0.54;
+}
+.topsite-simg {
+	margin: 40px 0px 0px -39px;
+}
+.topsite-name {
+	margin: 54px 0px 0px 25px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 34.2px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #3c3c3c;
+}
+.topsite-disc {
+	margin: 40px 0px 0px 40px;
+	border-left: 1px solid #cac8c5;
+	padding-left: 27px;
+}
+.topsite-disc_top {
+	margin: 8px 0px 0px 0px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20.2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #f2ac04;
+}
+.topsite-disc_bottom {
+	margin: 10px 0px 0px 0px;
+	font-family: 'Hind', sans-serif;
+	font-size: 14.2px;
+	font-weight: 400;
+	color: #929292;
+}
+/*--------------------*/
+
+/*Навигация*/
+.navblock{
+	width: 928px;
+	height: 44px;
+	margin: 0px auto;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #adadad;
+	border-bottom: 1px solid #adadad;
+	font-family: 'Hind', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 13px;
+}
+.navblock a{
+	color: black;
+}
+.navblock a:hover{
+	text-shadow: 1px 0px 1px black;
+}
+/*--------------------*/
+
+/*Главный блок*/
+/*Посты*/
+.topblock{
+	width: 928px;
+	height: 44px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+}
+/*Левый блок*/
+.topblock-leftblock {
+	margin-top: 39px;
+}
+.topblock-leftblock_top {
+	font-family: 'Hind', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+}
+.topblock-leftblock_main {
+	margin: 11px 0px 0px 0px;
+	width: 448px;
+	height: 303px;
+	border: 1px solid #B0B0B0;
+	padding: 1px;
+}
+.topblock-leftblock_main__img {
+}
+.topblock-leftblock_main__img img {
+	width: 444px;
+	height: 252px;
+}
+.topblock-leftblock_main__bottom {
+	width: 444px;
+	height: 47px;
+	border: 0.5px solid #B0B0B0;
+	display: flex;
+	justify-content: space-around;
+}
+.topblock-leftblock_main__bottom___leftarrow {
+	margin-top: 13px;
+}
+.topblock-leftblock_main__bottom___leftarrow img{
+	width: 24px;
+	height: 24px;
+}
+.topblock-leftblock_main__bottom___name {
+	font-family: 'Arimo', sans-serif;
+	font-size: 18px;
+	color: #565656;
+	margin-top: 15px;
+}
+.topblock-leftblock_main__bottom___rightarrow {
+	margin-top: 13px;
+}
+.topblock-leftblock_main__bottom___rightarrow img{
+	width: 24px;
+	height: 24px;
+}
+/*--------------------*/
+/*Правый блок*/
+.topblock-rightblock {
+	width: 450px;
+	height: 304px;
+	margin-top: 64px;
+}
+.topblock-rightblock_top {
+	width: 450px;
+	height: 199px;
+	background-image: url(../img/Layer411X.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+.topblock-rightblock_top__ftext {
+	font-size: 26px;
+	padding: 67px 0px 0px 20px;
+	font-weight: 300;
+}
+.topblock-rightblock_top__stext {
+	font-size: 40px;
+	padding: 10px 0px 0px 20px;
+	font-weight: 400;
+}
+.topblock-rightblock_main {
+	width: 450px;
+	height: 99px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	margin-top: 6px;
+	border-top: 1px solid black;
+	padding-top: 16px;
+	text-indent: 5px;
+}
+.topblock-rightblock_bottom {
+	width: 57px;
+	height: 15px;
+	display: flex;
+	float: right;
+	margin-top: 3px;
+}
+.topblock-rightblock_bottom__leftbox {
+	width: 43px;
+	color: white;
+	background-color: #2B2B29;
+	text-align: center;
+	padding-top: 1px;
+}
+.topblock-rightblock_bottom__rightbox {
+	width: 13px;
+	height: 15px;
+	background-color: #2B2B29;
+	margin-left: 1px;
+	text-align: center;
+	padding-top: 2.5px;
+}
+/*--------------------*/
+/*--------------------*/
+
