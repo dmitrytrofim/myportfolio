@@ -3,68 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Minimal website disign</title>
+	<title>Portfolio</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Шапка -->
-	<header>
-		<div class="topsite">
-			<div class="topsite-fimg"><img src="img/ellipse_1_194.png" alt="Oops!" width="56"></div>
-			<div class="topsite-simg"><img src="img/ellipse_1_194.png" alt="Oops!" width="56"></div>
-			<div class="topsite-name"><h1>Lipsum</h1></div>
-			<div class="topsite-disc">
-				<div class="topsite-disc_top">Lorem ipsum dolor sit amet</div>
-				<div class="topsite-disc_bottom">consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
-			</div>
-		</div>
-	</header>
-<!-- ===================== -->
-<!-- Навигация -->
-	<nav>
-		<div class="navblock">
-			<div class="navblock-home"><a href="#">home</a></div>
-			<div class="navblock-product"><a href="#">products</a></div>
-			<div class="navblock-news"><a href="#">news</a></div>
-			<div class="navblock-abus"><a href="#">about us</a></div>
-			<div class="navblock-contact"><a href="#">contact us</a></div>
-		</div>
-	</nav>
-<!-- ===================== -->
-<!-- Главный блок -->
-	<main>
-		<!-- Посты -->
-		<div class="topblock">
-			<!-- Левый блок -->
-			<div class="topblock-leftblock">
-				<div class="topblock-leftblock_top">featured Products</div>
-				<div class="topblock-leftblock_main">
-					<div class="topblock-leftblock_main__img"><img src="img/Layer451X.png" alt="Oops!"></div>
-					<div class="topblock-leftblock_main__bottom">
-						<div class="topblock-leftblock_main__bottom___leftarrow"><a href="#"><img src="img/Icons/leftarrow.png" alt="Oops!"></a></div>
-						<div class="topblock-leftblock_main__bottom___name">Lipsum comoodo Manager</div>
-						<div class="topblock-leftblock_main__bottom___rightarrow"><a href="#"><img src="img/Icons/rightarrow.png" alt="Oops!"></a></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__container">
+					<div class="header__name">
+						<h1>Portfolio DmitryTrofim</h1>
 					</div>
 				</div>
 			</div>
-			<!-- ===================== -->
-			<!-- Правый блок -->
-			<div class="topblock-rightblock">
-				<div class="topblock-rightblock_top">
-					<div class="topblock-rightblock_top__ftext">Preview Release Available!</div>
-					<div class="topblock-rightblock_top__stext">Lispum Data <br> Comoodo</div>
-				</div>
-				<div class="topblock-rightblock_main"><p>The mission of Orlin Research, Inc. is to produce software products that multiply the power and efficiency of empirical scientific research in the social sciences.</p>
-				<p>A central goal is to expand access to complex data sources and to the advanced methods of scientific investigation needed to analyze them.</p></div>
-				<a href="#"><div class="topblock-rightblock_bottom">
-					<div class="topblock-rightblock_bottom__leftbox">More</div>
-					<div class="topblock-rightblock_bottom__rightbox"><img src="img/Icons/whitearrow.png" alt=""></div>
-				</div></a>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="main__portfolio portfolio">
+					<div class="portfolio__row">
+						<a class="portfolio__link" href="portfolio/Cuda/Cuda.html" target="_blank"><figure class="portfolio__cuda cuda">
+						<div class="cuda__image"><img src="img/cuda.png" alt="Oops!"></div>
+						<div class="cuda__title">Cuda</div>
+						</figure></a>
+					</div>
+				</section>
 			</div>
-			<!-- ===================== -->
-		</div>
-		<!-- ===================== -->
-	</main>
-<!-- ===================== -->
+		</main>
+	</div>
 </body>
 </html>
