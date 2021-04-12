@@ -20,20 +20,23 @@ body{
 }
 .header {
 	&__container {
-		position: relative;
-		width: 100%;
+		max-width: 100%;
 		height: 200px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: #FFF;
-		z-index: 1;
 	}
 	&__name {
 		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		font-size: 80px;
 		font-weight: 600;
+		text-align: center;
 		text-shadow: 3px 3px 5px black;
+		@media (max-width: 500px) {
+			font-size: 46px;
+			text-align: center;
+		}
 	}
 }
 .main {
@@ -58,7 +61,7 @@ body{
 }
 .cuda {
 	&__image {
-		width: 500px;
+		max-width: 500px;
 	}
 	&__image img {
 		width: 100%;
