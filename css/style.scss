@@ -45,7 +45,7 @@ body{
 .portfolio {
 	&__row {
 		width: 100%;
-		height: 70vh;
+		min-height: 400px;
 		background-color: #FFF;
 		display: flex;
 		justify-content: center;
