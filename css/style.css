@@ -68,7 +68,8 @@ body {
 }
 
 .container {
-  max-width: 1441px;
+  max-width: 1200px;
+  padding: 0 15px;
   margin: 0px auto;
 }
 
@@ -95,29 +96,36 @@ body {
 }
 
 .portfolio__row {
-  width: 100%;
   min-height: 400px;
   background-color: #FFF;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .portfolio__link {
   color: black;
   text-decoration: none;
 }
-.portfolio__cuda {
+.portfolio__project {
+  padding: 0 5px;
   padding-top: 40px;
 }
 
-.cuda__image {
+.project__image {
   max-width: 500px;
 }
-.cuda__image img {
+.project__image img {
   width: 100%;
 }
-.cuda__title {
+.project__title {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
   padding-top: 8px;
+}
+
+@media (max-width: 1050px) {
+  .portfolio__row {
+    justify-content: center;
+  }
 }

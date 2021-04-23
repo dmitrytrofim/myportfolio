@@ -14,8 +14,8 @@ body{
 }
 
 .container {
-	max-width: 1441px;
-	// padding: 0 15px;
+	max-width: 1200px;
+	padding: 0 15px;
 	margin: 0px auto;
 }
 .header {
@@ -44,22 +44,23 @@ body{
 }
 .portfolio {
 	&__row {
-		width: 100%;
 		min-height: 400px;
 		background-color: #FFF;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 	&__link {
 		color: black;
 		text-decoration: none;
 
 	}
-	&__cuda {
+	&__project {
+		padding: 0 5px;
 		padding-top: 40px;
 	}
 }
-.cuda {
+.project {
 	&__image {
 		max-width: 500px;
 	}
@@ -71,5 +72,13 @@ body{
 		font-size: 30px;
 		font-weight: 600;
 		padding-top: 8px;
+	}
+}
+
+@media (max-width: 1050px) {
+		.portfolio {
+		&__row {
+			justify-content: center;
+		}
 	}
 }
