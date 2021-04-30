@@ -107,8 +107,7 @@ body {
   text-decoration: none;
 }
 .portfolio__project {
-  padding: 0 5px;
-  padding-top: 40px;
+  padding: 30px 5px;
 }
 
 .project__image {
