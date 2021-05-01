@@ -142,7 +142,7 @@ img {
 		&__navigation-list {
 			display: block;
 			position: relative;
-			top: 0;
+			top: 7px;
 			width: 800px;
 			height: 200px;
 			background-color: #212121;
@@ -153,6 +153,9 @@ img {
 			overflow-y: auto;
 			overflow-x: hidden;
 			padding-bottom: 200px;
+		}
+		&__navigation-list::-webkit-scrollbar {
+			appearance: none;
 		}
 		&__navigation-list.active {
 			left: 0;
