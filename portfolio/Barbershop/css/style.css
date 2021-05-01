@@ -182,6 +182,7 @@ img {
     height: 3px;
     width: 100%;
     position: absolute;
+    top: 4px;
     background: #515758;
     margin: 0 auto;
   }
@@ -189,11 +190,11 @@ img {
     content: "";
   }
   .header__burger:before {
-    top: -14px;
+    top: -10px;
     transition: 0.4s;
   }
   .header__burger:after {
-    top: 14px;
+    top: 18px;
     transition: 0.4s;
   }
   .header__burger.active span {
@@ -202,12 +203,12 @@ img {
   }
   .header__burger.active:before {
     transform: rotate(38deg);
-    top: 0;
+    top: 4px;
     transition: 0.4s;
   }
   .header__burger.active:after {
     transform: rotate(-38deg);
-    top: 0;
+    top: 4px;
     transition: 0.4s;
   }
 }
