@@ -359,7 +359,7 @@ img {
   background-color: #000;
   background-image: url("../img/pocketWatch.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -420,6 +420,10 @@ img {
   grid-row-gap: 15px;
   justify-items: center;
   margin-top: 20px;
+}
+
+.main__works a {
+  outline: none;
 }
 
 .main__works * :hover {
