@@ -375,9 +375,9 @@ img {
   position: absolute;
   top: 40px;
   bottom: 0;
-  left: 0;
-  right: 0;
-  max-width: 1160px;
+  left: 5px;
+  right: 5px;
+  width: 1170px;
   height: 299px;
   margin: 0 auto;
   content: "";
@@ -393,9 +393,9 @@ img {
   position: absolute;
   top: 40px;
   bottom: 0;
-  left: 0;
-  right: 0;
-  max-width: 1160px;
+  left: 5px;
+  right: 5px;
+  width: 1170px;
   height: 299px;
   margin: 0 auto;
   content: "";
@@ -880,6 +880,7 @@ img {
 .page .conditions__info-description-text-warranty,
 .page .conditions__info-description-text-credit {
   display: none;
+  max-width: 500px;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
