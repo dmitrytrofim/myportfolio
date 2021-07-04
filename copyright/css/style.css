@@ -375,6 +375,12 @@ img {
   padding-bottom: 40px;
 }
 
+@media (max-width: 991px) {
+  .main-article p br {
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
   .header__title {
     font-size: 36px;
