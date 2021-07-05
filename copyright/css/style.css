@@ -336,6 +336,10 @@ img {
   scroll-behavior: smooth;
 }
 
+.page-article * {
+  cursor: default;
+}
+
 .page-article__container {
   max-width: 98%;
   height: 100%;
